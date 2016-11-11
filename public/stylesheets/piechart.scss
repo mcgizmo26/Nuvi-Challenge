@@ -1,0 +1,112 @@
+.pie-chart-wrapper{
+  margin-top: 1%;
+  margin-left: 1%;
+  height: 93%;
+  width: 29%;
+  border: 1px solid #0BB4B8;
+}
+
+// ***************Upper****************
+
+.upper-pie-chart-container{
+  height: 10%;
+  width: 100%;
+  background-color: #001010;
+  border-bottom: 1px solid #0BB4B8;
+  display: flex;
+  align-items: center;
+  h1{
+    margin-left: 10px;
+    font-size: 18px;
+    color: #fff;
+  }
+}
+
+
+// **************Mid*****************
+
+.mid-pie-chart-container{
+  height: 20%;
+  width: 100%;
+  border-bottom: 1px solid #0BB4B8;
+  background-color: #001A1B;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.facebook-color{
+  display: flex;
+  flex-direction: row;
+  div{
+    height:15px;
+    width: 15px;
+    background-color: #3B5998;
+  }
+  p{
+    margin-left: 5px;
+    color: #0BB4B8;
+    font-size: 12px;
+  }
+}
+
+.instagram-color{
+  display: flex;
+  flex-direction: row;
+  div{
+    height:15px;
+    width: 15px;
+    background-color: #CA3086;
+  }
+  p{
+    margin-left: 5px;
+    color: #0BB4B8;
+    font-size: 12px;
+  }
+}
+
+.twitter-color{
+  display: flex;
+  flex-direction: row;
+  div{
+    height:15px;
+    width: 15px;
+    background-color: #1DA1F2;
+  }
+  p{
+    margin-left: 5px;
+    color: #0BB4B8;
+    font-size: 12px;
+  }
+}
+
+.tumblr-color{
+  display: flex;
+  flex-direction: row;
+  div{
+    height:15px;
+    width: 15px;
+    background-color: #A43E2D;
+  }
+  p{
+    margin-left: 5px;
+    color: #0BB4B8;
+    font-size: 12px;
+  }
+}
+
+// *************** Pie Chart ****************
+
+.pie-chart-container{
+  height: 70%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  h1{
+    color: #0BB4B8;
+    font-size: 12px;
+  }
+}

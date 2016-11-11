@@ -1,0 +1,111 @@
+// ****************** Bar Graph Styles **************
+
+.bar-chart-wrapper{
+  margin-top: 1%;
+  margin-left: 1%;
+  height: 93%;
+  width: 29%;
+  border: 1px solid #0BB4B8;
+}
+
+// ************Upper************
+
+.upper-bar-chart-container{
+  height: 10%;
+  width: 100%;
+  background-color: #001010;
+  border-bottom: 1px solid #0BB4B8;
+  display: flex;
+  align-items: center;
+  h1{
+    margin-left: 10px;
+    font-size: 18px;
+    color: #fff;
+  }
+}
+
+// *********** Mid ************
+.bar-chart-container{
+  height: 60%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #001A1B;
+  border-bottom: 1px solid #0BB4B8;
+  flex-wrap: wrap;
+  h1{
+    color: #0BB4B8;
+    font-size: 15px;
+  }
+}
+
+// **************Lower*************
+
+.lower-bar-chart-container{
+  height: 30%;
+  width: 100%;
+}
+
+.facebook-bar-stats{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: .5px solid #272727;
+  height: 24%;
+  h3{
+    margin-left: 10px;
+    color:  #0BB4B8
+  }
+  p{
+    margin-left: 5px;
+    color:  #0BB4B8
+  }
+}
+
+.twitter-bar-stats{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: .5px solid #272727;
+  height: 24%;
+  h3{
+    margin-left: 10px;
+    color:  #0BB4B8
+  }
+  p{
+    margin-left: 5px;
+    color:  #0BB4B8
+  }
+}
+
+.tumblr-bar-stats{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: .5px solid #272727;
+  height: 24%;
+  h3{
+    margin-left: 10px;
+    color:  #0BB4B8
+  }
+  p{
+    margin-left: 5px;
+    color:  #0BB4B8
+  }
+}
+
+.instagram-bar-stats{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 24%;
+  h3{
+    margin-left: 10px;
+    color:  #0BB4B8
+  }
+  p{
+    margin-left: 5px;
+    color:  #0BB4B8
+  }
+}

@@ -1,0 +1,43 @@
+
+.nuvi{
+  margin-left: 15px;
+  max-height: 30px;
+  max-width: 80px;
+}
+
+.search-area{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-right: 15px;
+}
+
+.search-section{
+  input{
+    height: 30px;
+    width: 250px;
+    margin-left: 10px;
+    font-size: 18px;
+    color: #0BB4B8;
+    background-color: #000;
+    border: 2px solid #0BB4B8;
+    &::-webkit-input-placeholder{
+      margin-top: 7px;
+      color: #0BB4B8;
+      font-size: 18px;
+    }
+  }
+  button{
+    cursor: pointer;
+    height: 36px;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    color: #0BB4B8;
+    background-color: #000;
+    font-size: 15px;
+  }
+}
+
+.inputButton{
+  border: 2px solid #0BB4B8;
+}

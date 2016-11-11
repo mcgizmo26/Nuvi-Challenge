@@ -1,0 +1,29 @@
+.background{
+  z-index: -1;
+  position: absolute;
+  background-color: #000;
+  height: 100vh;
+  width: 100vw;
+}
+
+.header{
+  height: 6vh;
+  width: 100vw;
+  background: -webkit-linear-gradient(#727272, #313131);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.mid-section{
+  height: 47vh;
+  width: 100%;
+}
+
+.bottom-section{
+  height: 47vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+}
